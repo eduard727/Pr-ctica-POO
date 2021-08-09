@@ -1,0 +1,39 @@
+#campo{
+    background-color: cyan;
+    width: 400px;
+    height: 400px;
+}
+body{
+    background-color: cyan;
+}
+#BB{
+    background-color: lightsalmon;
+    width: 90px;
+    height: 30px;
+    font-style: oblique;
+    font-size: 14px;
+}
+#BT{
+    background-color: lightgreen;
+    width: 90px;
+    height: 30px;
+    font-style: oblique;
+    font-size: 14px;
+}#Re{
+    background-color: lightsalmon;
+    width: 90px;
+    height: 30px;
+    font-style: oblique;
+    font-size: 14px;
+}
+#Cu{
+    background-color: lightgreen;
+    width: 90px;
+    height: 30px;
+    font-style: oblique;
+    font-size: 14px;
+}
+#info{
+    width: 400px;
+    height: 80px;
+}

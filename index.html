@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>.3.</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="ui.js"></script>
+    </head>
+
+    <body>
+
+        <fieldset id="campo">
+
+            <div id="conteiner">
+                <button id="BT" onclick="dibujarBolaTennis()">Tennis</button>
+                <button id="BB" onclick="dibujarBolaBasket()">Basket</button>
+                <button id="Cu" onclick="dibujarCuadrado()">Cuadro</button>
+                <button id="Re" onclick="dibujarRectangulo()">Rectangulo</button>
+
+                
+                <div class="circle" id="bolaT" style="position: relative;" onmouseover="mOver()" onmouseout="mOut()"></div>
+                
+                <div class="circle" id="bolaB" style="position: relative;" onmouseover="mOver()" onmouseout="mOut()"></div>
+
+                <div class="circle" id="cuadro" style="position: relative;" onmouseover="mOver()" onmouseout="mOut()"></div>
+                <div class="circle" id="rect" style="position: relative;" onmouseover="mOver()" onmouseout="mOut()"></div>
+            </div>
+
+        </fieldset>
+
+        <br>
+        <div id="info">
+            _
+        </div>
+        <div id="info2">
+            _
+        </div>
+        <br>
+    </body>
+</html>
